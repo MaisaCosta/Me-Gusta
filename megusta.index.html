@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./megusta.style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Network</h1>
+        
+        </div>
+    </div>
+    <div>
+        <h1 class="meio">Your Feed</h1>
+    </div>
+
+    <!-- main -->
+    <div class="flex-container main">
+
+        <!-- 2/3 width column -->
+        <div class="col-2">
+
+            <!-- user info card -->
+            <div class="card user-card">
+                <div>
+                    <img src="user-circle.png" alt="James Doe" class="avatar">
+                </div>
+                <div class="center"><span>Add an Avatar</span></div>
+                <div class="card-body">
+                    <h1 class="center">James Doe</h1>
+                </div>
+            </div>
+        </div>
+        
+            <!-- user education card -->
+        <!-- 1/3 width column -->
+        <div class="col-1">
+
+            <!-- connection requests card -->
+            <div class="card">
+                <div class="ali">
+                    <h2>Neil M</h2>
+                    <h5><span>9</span> Like(s)</h5>
+                    <button class="btn" onclick="agregarLike(this)"> <span class="numLike">9</span> Likes</button>
+                </div>
+            <h3>I just set up this new discord bot, let me know what you all think.<span>Link </span></h3>
+            </div>
+            <div class="card">
+                <div class="ali">
+                    <h2>Nichole K</h2>
+                    <h5><span>12</span> Like(s)</h5>
+                    <button class="btn" onclick="agregarLike(this)"><span class="numLike">12</span> Likes</button>
+                </div>
+                <h3>Just finished my <span>next comic</span>, check it out.</h3>
+            </div>
+            <div class="card">
+                <div class="ali">
+                    <h2>Jim R</h2>
+                    <h5>9 Like(s)</h5>
+                    <button class="btn" onclick="agregarLike(this)"><span class="numLike">9</span> Likes</button>
+                </div>
+                <h3>I can't stop listening to the <span>new album</span>. Who else is liking it.</h3>
+            </div>
+            
+            </div>
+            </div>
+
+        
+    </div>
+
+    <script src="megusta.index.js"></script>
+</body>
+
+</html>
